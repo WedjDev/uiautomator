@@ -19,7 +19,7 @@ def oppo_verify(u):
         u(className='android.widget.Button', text='安装').click()
         u(className='android.widget.Button', text='完成').click()
         return True
-
+hello
     if u(packageName="com.android.packageinstaller", text="重新安装").click_exists():
         print("Reinstall")
         u(className='android.widget.Button', text='安装').click()
